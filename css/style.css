@@ -212,7 +212,7 @@ html {
 }
 
 .size {
-  font-size: 75px;
+  font-size: 70px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -238,7 +238,7 @@ html {
 
 @media screen and (max-width: 576px) {
   .size {
-    font-size: 20px;
+    font-size: 22px;
 
   }
 }
@@ -263,7 +263,7 @@ html {
 @media screen and (max-width: 767px) {
   .btn {
     height: 40px;
-    width: 150px;
+    width: 180px;
     
 
   }
@@ -272,7 +272,7 @@ html {
 @media screen and (max-width: 576px) {
   .btn {
     height: 40px;
-    width: 100px;
+    width: 150px;
     
 
   }
