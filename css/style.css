@@ -1,0 +1,534 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  font-family: Poppins;
+}
+
+.sty {
+  border-radius: 15px;
+}
+
+.tex {
+  color: white;
+}
+
+.line-before {
+  position: relative;
+  padding-left: 40px;
+  /* space for the line */
+  font-weight: bold;
+}
+
+.line-before::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 50px;
+  height: 4px;
+  background-color: yellow;
+}
+
+.font {
+  font-size: 100px;
+  line-height: 80px;
+}
+
+@media screen and (max-width: 1200px) {
+  .font {
+    font-size: 100px;
+    line-height: 60px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .font {
+    font-size: 60px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .font {
+    font-size: 50px;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .font {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.font {
+  font-size: 100px;
+  line-height: 80px;
+}
+
+
+.lin {
+  height: 10px;
+  width: 100px;
+  background-color: #4db607;
+  position: relative;
+  z-index: -10px;
+
+}
+
+#image {
+  background-image: url(/img/geometric_shape.svg);
+  background-size: cover;
+  height: 400px;
+  background-position: relative;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  box-shadow: 10px 10px 10px 10px red;
+}
+
+.fot {
+  font-size: 60px;
+  text-overflow: auto;
+  margin-top: 50px;
+
+}
+
+@media screen and (max-width:1200px) {
+  .fot {
+    font-size: 60px;
+    text-overflow: auto;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width:967px) {
+  .fot {
+    font-size: 50px;
+    text-overflow: auto;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width:667px) {
+  .fot {
+    font-size: 45px;
+    text-overflow: auto;
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width:556px) {
+  .fot {
+    font-size: 25px;
+    text-overflow: auto;
+    margin-top: 50px;
+  }
+}
+
+.img {
+  z-index: 0;
+  height: 300px;
+  width: 300px;
+}
+
+.img {
+  height: 300px;
+  width: 300px;
+}
+
+@media screen and (max-width: 1200px) {
+  .img {
+    height: 300px;
+    width: 300px;
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .img {
+    height: 200px;
+    width: 200px;
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .font {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .font {
+    height: 150px;
+    width: 150px;
+  }
+}
+
+.hei {
+  height: 70px;
+  width: 200px;
+  margin-top: 100px;
+}
+
+.fs-7 {
+  font-size: 70px;
+}
+
+.hei {
+  height: 55px;
+  width: 200px;
+}
+
+.font {
+  font-size: 60px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #ffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#exampleFormControlInput1 {
+  height: 60px
+}
+
+.size {
+  font-size: 75px;
+}
+
+@media screen and (max-width: 1200px) {
+  .size {
+    font-size: 60px;
+
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .size {
+    font-size: 50px;
+
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .size {
+    font-size: 35px;
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .size {
+    font-size: 20px;
+
+  }
+}
+
+.btn {
+  height: 50px;
+  width: 250px
+}
+
+.fst {
+  font-size: 70px;
+}
+
+@media screen and (max-width: 1200px) {
+  .btn {
+    font-size: 50px;
+    width: 250px;
+
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .btn {
+    height: 40px;
+    width: 150px;
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .fst {
+    font-size: 70px;
+
+  }
+}
+
+@media screen and (max-width: 993px) {
+  .fst {
+    font-size: 55px;
+
+  }
+}
+
+@media screen and (max-width: 769px) {
+  .fst {
+    font-size: 30px;
+
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .fst {
+    font-size: 20px;
+
+  }
+}
+
+.bor {
+  box-shadow: 0px 0px 10px 10px grey;
+  border-radius: 30% 40px 30% 40px;
+}
+
+/* Visual styling */
+.skills-section {
+  padding: 4rem 1rem;
+  background: linear-gradient(180deg, #f8fbff 0%, #ffffff 100%);
+}
+
+.skill-card {
+  border: 1px solid rgba(13, 110, 253, 0.06);
+  border-radius: 12px;
+  padding: 1.25rem;
+  transition: transform .25s ease, box-shadow .25s ease;
+  background: #fff;
+  box-shadow: 0 6px 18px rgba(20, 20, 50, 0.03);
+}
+
+.skill-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 14px 30px rgba(20, 20, 50, 0.06);
+}
+
+.skill-name {
+  font-weight: 600;
+  margin-bottom: .25rem;
+  font-size: .98rem;
+}
+
+.progress {
+  height: 12px;
+  border-radius: 999px;
+  background: rgba(13, 110, 253, 0.08);
+  overflow: visible;
+}
+
+.progress-bar {
+  border-radius: 999px;
+  transition: width 1.2s cubic-bezier(.2, .9, .2, 1);
+}
+
+/* percentage badge on the right of each skill row on larger displays */
+.skill-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: .75rem;
+}
+
+.skill-percent {
+  min-width: 48px;
+  text-align: right;
+  font-weight: 700;
+  color: #0d6efd;
+}
+
+/* small responsive tweaks */
+@media (max-width: 576px) {
+  .skill-percent {
+    min-width: 40px;
+    font-size: .9rem;
+  }
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.about-section {
+  padding: 60px 0;
+}
+
+.project-img {
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.project-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.project-desc {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.8;
+}
+
+body {
+  background-color: #f8f9fa;
+}
+
+.experience-section {
+  padding: 60px 0;
+}
+
+.experience-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card-body {
+  padding: 25px;
+}
+
+.role {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #0d6efd;
+}
+
+.company {
+  font-weight: 500;
+  color: #333;
+}
+
+.duration {
+  font-size: 0.95rem;
+  color: #888;
+}
+
+.description {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: url('') no-repeat center center/cover;
+  min-height: 100vh;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.6);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+}
+
+.contact-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(12px);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 900px;
+  width: 100%;
+  color: white;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #0d6efd;
+}
+
+.form-control {
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.btn-custom {
+  background-color: #0d6efd;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-weight: bold;
+  color: white;
+  width: 100%;
+}
+
+.btn-custom:hover {
+  background-color: #084298;
+}
+
+.contact-info i {
+  font-size: 1.5rem;
+  margin-right: 10px;
+  color: #0d6efd;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+.bdr{
+  box-shadow:  0px 0px 5px 5px grey;
+}
+ .contact-card {
+            border: 4px solid #ff0000;
+            border-radius: 15px;
+            padding: 20px;
+            transition: border-color 0.5s ease, box-shadow 0.5s ease;
+        }
+
+.sadow {
+  box-shadow: 0px 0px 10px 10px maroon;
+}
+.sado {
+  box-shadow: 0px 0px 10px 10px green;
+}
