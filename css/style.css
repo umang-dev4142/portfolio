@@ -167,10 +167,17 @@ html {
   }
 }
 
-.hei {
+ .hei {
   height: 70px;
   width: 200px;
   margin-top: 100px;
+} 
+@media (max-width:576px){
+  .hei{
+   height: 70px;
+  width: 200px;
+  margin-top: 150px; 
+  }
 }
 
 .fs-7 {
@@ -212,7 +219,7 @@ html {
 }
 
 .size {
-  font-size: 70px;
+  font-size: 68px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -532,3 +539,89 @@ body {
 .sado {
   box-shadow: 0px 0px 10px 10px green;
 }
+@media (max-width: 768px) {
+    h1, h2, h3, h4 {
+        font-size: 1.2rem;
+        line-height: 1.5;
+    }
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    .project-img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+    .p-5 {
+        padding: 1.5rem !important;
+    }
+}
+.section-label {
+    color: orange;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block;
+}
+.headline {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 1.2;
+}
+@media (max-width:576px){
+  .headline {
+     font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.2;
+  }
+}
+
+/* Background image fixed size and start at left */
+.bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 280px; /* fixed width */
+    height: 350px; /* fixed height */
+    background: url('/portfolio/img/geometric_shape.svg') no-repeat center;
+    background-size: cover;
+    
+}
+@media (max-width:576px) {
+ .bg-image{
+   position: absolute;
+    left: 0;
+    top: 0;
+    width: 200px; /* fixed width */
+    height: 300px; /* fixed height */
+    background: url('/portfolio/img/geometric_shape.svg') no-repeat center;
+    background-size: cover;
+    
+ } 
+}
+
+/* Text content on top of background */
+.content {
+    position: relative;
+    padding-left: 20px;
+}
+
+.btn-outline-light {
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.btn-outline-light:hover {
+    background: white;
+    color: black;
+}
+
+.social-icons a {
+    color: white;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: orange;
+}
+
+
